@@ -1,0 +1,148 @@
+Enabled checks:
+    clang-analyzer-apiModeling.StdCLibraryFunctions
+    clang-analyzer-apiModeling.TrustNonnull
+    clang-analyzer-apiModeling.google.GTest
+    clang-analyzer-apiModeling.llvm.CastValue
+    clang-analyzer-apiModeling.llvm.ReturnValue
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.CallAndMessageModeling
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-cplusplus.InnerPointer
+    clang-analyzer-cplusplus.Move
+    clang-analyzer-cplusplus.NewDelete
+    clang-analyzer-cplusplus.NewDeleteLeaks
+    clang-analyzer-cplusplus.PlacementNew
+    clang-analyzer-cplusplus.PureVirtualCall
+    clang-analyzer-cplusplus.SelfAssignment
+    clang-analyzer-cplusplus.SmartPtrModeling
+    clang-analyzer-cplusplus.StringChecker
+    clang-analyzer-cplusplus.VirtualCallModeling
+    clang-analyzer-deadcode.DeadStores
+    clang-analyzer-fuchsia.HandleChecker
+    clang-analyzer-nullability.NullPassedToNonnull
+    clang-analyzer-nullability.NullReturnedFromNonnull
+    clang-analyzer-nullability.NullabilityBase
+    clang-analyzer-nullability.NullableDereferenced
+    clang-analyzer-nullability.NullablePassedToNonnull
+    clang-analyzer-nullability.NullableReturnedFromNonnull
+    clang-analyzer-optin.cplusplus.UninitializedObject
+    clang-analyzer-optin.cplusplus.VirtualCall
+    clang-analyzer-optin.mpi.MPI-Checker
+    clang-analyzer-optin.osx.OSObjectCStyleCast
+    clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker
+    clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker
+    clang-analyzer-optin.performance.GCDAntipattern
+    clang-analyzer-optin.performance.Padding
+    clang-analyzer-optin.portability.UnixAPI
+    clang-analyzer-osx.API
+    clang-analyzer-osx.MIG
+    clang-analyzer-osx.NSOrCFErrorDerefChecker
+    clang-analyzer-osx.NumberObjectConversion
+    clang-analyzer-osx.OSObjectRetainCount
+    clang-analyzer-osx.ObjCProperty
+    clang-analyzer-osx.SecKeychainAPI
+    clang-analyzer-osx.cocoa.AtSync
+    clang-analyzer-osx.cocoa.AutoreleaseWrite
+    clang-analyzer-osx.cocoa.ClassRelease
+    clang-analyzer-osx.cocoa.Dealloc
+    clang-analyzer-osx.cocoa.IncompatibleMethodTypes
+    clang-analyzer-osx.cocoa.Loops
+    clang-analyzer-osx.cocoa.MissingSuperCall
+    clang-analyzer-osx.cocoa.NSAutoreleasePool
+    clang-analyzer-osx.cocoa.NSError
+    clang-analyzer-osx.cocoa.NilArg
+    clang-analyzer-osx.cocoa.NonNilReturnValue
+    clang-analyzer-osx.cocoa.ObjCGenerics
+    clang-analyzer-osx.cocoa.RetainCount
+    clang-analyzer-osx.cocoa.RetainCountBase
+    clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak
+    clang-analyzer-osx.cocoa.SelfInit
+    clang-analyzer-osx.cocoa.SuperDealloc
+    clang-analyzer-osx.cocoa.UnusedIvars
+    clang-analyzer-osx.cocoa.VariadicMethodTypes
+    clang-analyzer-osx.coreFoundation.CFError
+    clang-analyzer-osx.coreFoundation.CFNumber
+    clang-analyzer-osx.coreFoundation.CFRetainRelease
+    clang-analyzer-osx.coreFoundation.containers.OutOfBounds
+    clang-analyzer-osx.coreFoundation.containers.PointerSizedValues
+    clang-analyzer-security.FloatLoopCounter
+    clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    clang-analyzer-security.insecureAPI.SecuritySyntaxChecker
+    clang-analyzer-security.insecureAPI.UncheckedReturn
+    clang-analyzer-security.insecureAPI.bcmp
+    clang-analyzer-security.insecureAPI.bcopy
+    clang-analyzer-security.insecureAPI.bzero
+    clang-analyzer-security.insecureAPI.decodeValueOfObjCType
+    clang-analyzer-security.insecureAPI.getpw
+    clang-analyzer-security.insecureAPI.gets
+    clang-analyzer-security.insecureAPI.mkstemp
+    clang-analyzer-security.insecureAPI.mktemp
+    clang-analyzer-security.insecureAPI.rand
+    clang-analyzer-security.insecureAPI.strcpy
+    clang-analyzer-security.insecureAPI.vfork
+    clang-analyzer-unix.API
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NullArg
+    clang-analyzer-valist.CopyToSelf
+    clang-analyzer-valist.Uninitialized
+    clang-analyzer-valist.Unterminated
+    clang-analyzer-valist.ValistBase
+    clang-analyzer-webkit.NoUncountedMemberChecker
+    clang-analyzer-webkit.RefCntblBaseVirtualDtor
+    clang-analyzer-webkit.UncountedLambdaCapturesChecker
+
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/chart.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/ema.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/ma.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ui_mainwindow.h
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/chart.h
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/chartview.h
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/trendingscraper.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/trendingscraper.cpp
+[1m/home/bob9952/Desktop/in5/ver/project/stock-app/source/trendingscraper.cpp:34:9: [0m[0;1;35mwarning: [0m[1mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy][0m
+        strcpy(c_url,url.c_str());
+[0;1;32m        ^~~~~~
+[0m[1m/home/bob9952/Desktop/in5/ver/project/stock-app/source/trendingscraper.cpp:34:9: [0m[0;1;30mnote: [0mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119[0m
+        strcpy(c_url,url.c_str());
+[0;1;32m        ^~~~~~
+[0mclang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/parsernyse.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/mainwindow.h
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/scraper.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/parsernyse.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/statistics.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/statistics_adapter.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/bollinger_bands.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/macd.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/chartview.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/main.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/ma.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/macd.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/settings.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/scraper.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/statistics_adapter.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/ema.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/mainwindow.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/statistics.hpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/bollinger_bands.cpp
+clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app//build-source-Desktop_Qt_6_5_3_GCC_64bit-Debug/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/settings.hpp
