@@ -112,32 +112,6 @@ Enabled checks:
     clang-analyzer-webkit.RefCntblBaseVirtualDtor
     clang-analyzer-webkit.UncountedLambdaCapturesChecker
 
-<<<<<<< HEAD
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/build/moc_mainwindow.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/statistics_adapter.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/build/moc_trendingscraper.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/macd.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/ema.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/bollinger_bands.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/scraper.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/build/qrc_resources.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/statistics.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/trendingscraper.cpp
-[1m/home/bob9952/Desktop/in5/ver/project/stock-app/source/build/../trendingscraper.cpp:34:9: [0m[0;1;35mwarning: [0m[1mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy][0m
-        strcpy(c_url,url.c_str());
-[0;1;32m        ^~~~~~
-[0m[1m/home/bob9952/Desktop/in5/ver/project/stock-app/source/build/../trendingscraper.cpp:34:9: [0m[0;1;30mnote: [0mCall to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119[0m
-        strcpy(c_url,url.c_str());
-[0;1;32m        ^~~~~~
-[0mclang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/ma.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/main.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/build/moc_scraper.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/settings.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/mainwindow.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/parsernyse.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/chart.cpp
-clang-tidy-14 --use-color -header-filter=${PROJECT_DIR}/source/.* -p=/home/bob9952/Desktop/in5/ver/project/clang-tidy/../stock-app/source/build/ /home/bob9952/Desktop/in5/ver/project/stock-app/source/chartview.cpp
-=======
 clang-tidy-14 --use-color -header-filter=../VisuAlgo/visuAlgo/Headers/.* -p=../VisuAlgo/visuAlgo/build/ /home/bob9952/Desktop/in5/ver/project/VisuAlgo/visuAlgo/Resources/Heuristic.cpp
 clang-tidy-14 --use-color -header-filter=../VisuAlgo/visuAlgo/Headers/.* -p=../VisuAlgo/visuAlgo/build/ /home/bob9952/Desktop/in5/ver/project/VisuAlgo/visuAlgo/Resources/Node.cpp
 [1m../Resources/Node.cpp:8:13: [0m[0;1;35mwarning: [0m[1m'extern' variable has an initializer [clang-diagnostic-extern-initializer][0m
@@ -177,4 +151,3 @@ void Widget::speedValueChanged(int value) {
 clang-tidy-14 --use-color -header-filter=../VisuAlgo/visuAlgo/Headers/.* -p=../VisuAlgo/visuAlgo/build/ /home/bob9952/Desktop/in5/ver/project/VisuAlgo/visuAlgo/Resources/GridMatrix.cpp
 clang-tidy-14 --use-color -header-filter=../VisuAlgo/visuAlgo/Headers/.* -p=../VisuAlgo/visuAlgo/build/ /home/bob9952/Desktop/in5/ver/project/VisuAlgo/visuAlgo/Resources/DFS.cpp
 clang-tidy-14 --use-color -header-filter=../VisuAlgo/visuAlgo/Headers/.* -p=../VisuAlgo/visuAlgo/build/ /home/bob9952/Desktop/in5/ver/project/VisuAlgo/visuAlgo/Resources/Algorithm.cpp
->>>>>>> 6f191c5 (Added clang-tidy script and output)
