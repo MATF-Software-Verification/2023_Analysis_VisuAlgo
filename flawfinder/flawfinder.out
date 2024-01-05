@@ -1,0 +1,58 @@
+Flawfinder version 2.0.19, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 222
+Examining ../VisuAlgo/visuAlgo/Resources/AStar.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/BFS.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/DFS.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/main.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/Algorithm.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/GridMatrix.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/Dijkstra.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/Walker.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/Heuristic.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/mazespec.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/Node.cpp
+Examining ../VisuAlgo/visuAlgo/Resources/widget.cpp
+Examining ../VisuAlgo/visuAlgo/Headers/Walker.h
+Examining ../VisuAlgo/visuAlgo/Headers/Dijkstra.h
+Examining ../VisuAlgo/visuAlgo/Headers/AStar.h
+Examining ../VisuAlgo/visuAlgo/Headers/mazespec.h
+Examining ../VisuAlgo/visuAlgo/Headers/Node.h
+Examining ../VisuAlgo/visuAlgo/Headers/Heuristic.h
+Examining ../VisuAlgo/visuAlgo/Headers/Algorithm.h
+Examining ../VisuAlgo/visuAlgo/Headers/widget.h
+Examining ../VisuAlgo/visuAlgo/Headers/DFS.h
+Examining ../VisuAlgo/visuAlgo/Headers/BFS.h
+Examining ../VisuAlgo/visuAlgo/Headers/GridMatrix.h
+
+FINAL RESULTS:
+
+../VisuAlgo/visuAlgo/Resources/GridMatrix.cpp:270:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+../VisuAlgo/visuAlgo/Resources/widget.cpp:355:  [2] (misc) open:
+  Check when opening files - can an attacker redirect it (via symlinks),
+  force the opening of special file type (e.g., device files), move things
+  around to create a race condition, control its ancestors, or change its
+  contents? (CWE-362).
+
+ANALYSIS SUMMARY:
+
+Hits = 2
+Lines analyzed = 2132 in approximately 0.02 seconds (96480 lines/second)
+Physical Source Lines of Code (SLOC) = 1679
+Hits@level = [0]   0 [1]   0 [2]   2 [3]   0 [4]   0 [5]   0
+Hits@level+ = [0+]   2 [1+]   2 [2+]   2 [3+]   0 [4+]   0 [5+]   0
+Hits/KSLOC@level+ = [0+] 1.19119 [1+] 1.19119 [2+] 1.19119 [3+]   0 [4+]   0 [5+]   0
+Minimum risk level = 1
+
+Not every hit is necessarily a security vulnerability.
+You can inhibit a report by adding a comment in this form:
+// flawfinder: ignore
+Make *sure* it's a false positive!
+You can use the option --neverignore to show these.
+
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
