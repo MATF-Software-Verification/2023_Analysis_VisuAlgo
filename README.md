@@ -18,7 +18,8 @@ Spisak alata:
 
 Svaki od navedenih alata ima u odgovarajućem folderu bash skriptu koja ga pokreće i rezultate izvršavanja. 
 
-## Zaključci
+## Zaključak
 
-Integracija alata za statičku i dinamičku analizu, kao i profiliranje, pružila je dubok uvid u performanse i sigurnost projekta VisuAlgo. Otklanjanje stilskih i logičkih nedoslednosti, identifikacija potencijalnih memorijskih propusta, efikasno upoređivanje performansi algoritama i otkrivanje sigurnosnih ranjivosti doprinose poboljšanju kvaliteta i performansi ovog projekta.
-Detaljan opis alata i pokretanje može se pronaći u fajlu ProjectAnalysisReport.
+Integracija alata za statičku i dinamičku analizu, kao i profiliranje, pružila je dubok uvid u performanse i sigurnost projekta VisuAlgo.
+Otklanjanje stilskih i logičkih nedoslednosti, identifikacija potencijalnih memorijskih propusta, efikasno upoređivanje performansi algoritama i otkrivanje sigurnosnih ranjivosti doprinose poboljšanju kvaliteta i performansi ovog projekta.
+Detaljan opis alata može se pronaći u fajlu ProjectAnalysisReport.
