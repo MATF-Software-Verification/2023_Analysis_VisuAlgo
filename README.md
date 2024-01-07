@@ -1,7 +1,7 @@
 # 2023_Analysis_18-stock-app
 
 ## Podaci o autoru i projektu
-Autor: Matija Lojović 1017/2023
+Autor: Nikola Subotić 1029 / 2023
 
 Projekat: VisuAlgo je aplikacija koja ima za cilj da vizualno prikaže rad algoritama. Ideja je da se krećemo kroz lavirint(matricu) od početnog do krajnjeg čvora, pri tom zaobilazeći sve prepreke koje nam se nadju na putu. Svrha aplikacije je da na drugačiji način pomogne u lakšem razumevanju funkcionisanja algoritama.
 
