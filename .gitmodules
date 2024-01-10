@@ -1,6 +1,6 @@
 [submodule "VisuAlgo"]
 	path = VisuAlgo
-	url = git@gitlab.com:matf-bg-ac-rs/course-rs/projects-2023-2024/VisuAlgo.git
+	url = https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2023-2024/VisuAlgo.git
 [submodule "perf/FlameGraph"]
 	path = perf/FlameGraph
-	url = git@github.com:brendangregg/FlameGraph.git
+	url = https://github.com/brendangregg/FlameGraph.git
